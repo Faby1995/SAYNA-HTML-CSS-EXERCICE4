@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Projet finale html-css"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "exercice4",
+		"liveServer.settings.port": 5501
+	}
+}

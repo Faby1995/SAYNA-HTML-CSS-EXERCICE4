@@ -1,0 +1,301 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: "homcoming";
+    src: url(../static/Far-From\ Homecoming\ Updated.otf);
+}
+:root{
+    --black: #000000;
+    --yellow: #F1C530;
+    --blue: #114C92;
+    --white: #FFFFFF;
+    --red: #B11313;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    padding: 0;
+    margin: 0;
+}
+
+header .back-header{
+    background-color: var(--red);
+}
+header .rows-heading{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header .heading-menu{
+    padding-right: 9%;
+    padding-top: 35px;
+}
+header .heading-menu a{
+    color: var(--white);
+    text-decoration: none;
+    padding-left: 64px;
+
+}
+header .marvel{
+  padding-top: 18px;
+  padding-bottom: 15px;
+  padding-left: 8%;  
+}
+header .marvel .img-heading{
+    padding-bottom: 12px;
+    padding-left: 22px;
+    padding-right: 23px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto; /* pour centrer l'alignement */ 
+    overflow: hidden;
+}
+.container-fluid{
+    width: 100%;
+    margin: 0 auto; /* pour centrer l'alignement */ 
+    overflow: hidden;
+}
+section.container-fluid.fond-head{
+    background-image: url('/Assets/Illustration/img1.png');
+    background-repeat: no-repeat;
+    background-size: 1370px 758px;
+    width: 100%;
+    height: 758px;
+    margin: 0;
+}
+.container-fluid .header-spider{
+    color: var(--white);
+    display: block;
+    margin-left: 12%;
+    margin-top: 16%;
+}
+.container-fluid .header-spider .voir-hero{
+    background-color: var(--white);
+    border: none;
+    border-radius: 15px;
+    padding: 12px;
+    color: var(--red);
+    font-weight: bold;
+    width: 11%;
+}
+.container-fluid .header-spider .adversaire{
+    background: transparent;
+    color: var(--white);
+    padding: 12px;
+    margin-left: 25px;
+    border: solid 1px;
+    border-radius: 15px;
+}
+
+.container-fluid .header-spider .arraigne{
+    font-size: 21px;
+    font-weight: bold;
+}
+.container-fluid .typo-spider, .deviens-spiderman, .font-col1, .container .unheros, section .container .ligne1 .text-blue .defendre{
+    font-family: "homcoming",sans-serif;
+}
+.container-fluid .header-spider .font-size-spider{
+    font-size: 94px;
+}
+
+section.fond-head2{
+    background-color: var(--red);
+}
+
+.container.head{
+    padding-bottom: 4%;
+}
+.spiderman-cinema{
+    margin-left: 41px;
+   
+}
+
+.spiderman-cinema p{
+    color: var(--white);
+}
+.spiderman-cinema p.spider-cinema{
+    font-family: "homcoming", sans-serif;
+    font-size: 29px;
+} 
+
+.container .peter-parker{
+    display: flex;
+   
+
+}
+
+.container .peter-parker img{
+    width:93%;
+}
+
+.text-justify{
+    color: var(--white);
+    font-size: 12px;
+    text-align: justify;
+    padding-left: 44px;
+}
+.text-justify p{
+    width: 287px;
+}
+.bouton-header3{
+    padding: 10px;
+    margin-left: 18%;
+    color: var(--red);
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--white);
+
+}
+
+section.fond-bleu{
+    background-color: var(--blue);
+}
+.forme{
+float: right;
+display: block;
+padding-top: 10%;
+width: 55%;
+text-align: center;
+color: var(--white);
+}
+
+section >.forme .formulaire{
+    display: block;
+    
+}
+section .forme .formulaire input{
+    border-radius: 10px;
+    margin-bottom: 7px;
+    padding: 5px;
+    width: 55%;
+}
+section .forme .deviens-spiderman{
+    font-size: 26px;
+}
+section .formulaire .form-bouton{
+background-color: var(--blue);
+color: var(--white);
+border: solid 1px;
+padding: 15px;
+margin-top: 5%;
+border-color: var(--white);
+border-radius: 14px;
+width:126px;
+}
+
+section.fond-end{
+    background-color: var(--red);
+    color: var(--white);
+   
+}
+section .rows-end{
+    display: flex;
+}
+section .col1{   
+ float: left;
+ padding-left: 10%;
+ padding-top: 5%;
+}
+section .col1 p{
+    font-size: 12px;
+    margin-bottom: 2%;
+}
+section .col1 .font-col1{
+    font-size: 30px;
+    
+}
+section .col1 .font-col2{
+    margin-bottom: 12%;
+}
+section .rows-end .col1 .input-text input{
+    background-color: var(--red);
+    border: solid var(--white);
+    
+    border-radius: 12px;
+    padding: 6px;
+    margin-bottom: 9px;
+    width: 300px;
+}
+section .rows-end .col1 .input-text input::placeholder{
+   color: var(--white);
+}
+section > .rows-end .bouton-end{
+    padding: 3%;
+    background-color: var(--white);
+    border: solid 0;
+    border-color: var(--white);
+    color: var(--red);
+    border-radius: 12px;
+    margin-top: 10%;
+    margin-left: 14%;
+}
+section > .rows-end .image-end img{
+display: block;
+width: 100%;
+padding-left: 14%;
+}
+
+footer section{
+    background-color: var(--black);
+}
+footer .footer-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 6% 0% 5% 2%;
+
+
+}
+.footer-lien a{
+    color: var(--white);
+    text-decoration: none;
+   margin: 0% 19px 0 5px;
+}
+.img-footer{
+margin: -2% 6% 11px 2%;
+}
+.logo2{
+    margin-bottom: 6%;
+}
+.logo3{
+   width: 171px;
+   height: 50px;
+   margin-right: -31px;
+}
+.select-1{
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    padding: 5px;
+    width: 101px;
+
+}
+
+.media-align{
+    display: flex;
+    justify-content: center ;
+   
+   
+}
+.media-align p{
+    color: var(--black);
+    text-align: center;
+    letter-spacing: 5px;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: var(--red);
+    margin-left: 5px;
+}
+.media-align p i{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+.saynaMarvel{
+    color: var(--white);
+    text-align: center;
+    font-size: 15px;
+}
